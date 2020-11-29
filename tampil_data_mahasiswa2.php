@@ -28,12 +28,12 @@
   	<?php while($data = mysqli_fetch_row($result)): ?>
   		<tr>
   			<td><?php echo $data[0]; ?></td>
-        <td><?php echo $data[1]; ?></td>
-        <td><?php echo $data[2]; ?></td>
-        <td><?php echo $data[3]; ?></td>
-        <td><?php echo $data[4]; ?></td>
-        <td><?php echo $data[5]; ?></td>
-        <td><?php echo $data[6]; ?></td>
+            <td><?php echo $data[1]; ?></td>
+            <td><?php echo $data[2]; ?></td>
+            <td><?php echo $data[3]; ?></td>
+            <td><?php echo $data[4]; ?></td>
+            <td><?php echo $data[5]; ?></td>
+            <td><?php echo $data[6]; ?></td>
   		</tr>
   	<?php endwhile; ?>
   </table>
