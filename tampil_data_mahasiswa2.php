@@ -17,13 +17,13 @@
   </form>
   <table border="1">
   	<tr>
-  		<th>NIM</th>
-      <th>Nama</th>
-      <th>Tempat Lahir</th>
-      <th>Tanggal Lahir</th>
-      <th>Fakultas</th>
-      <th>Jurusan</th>
-      <th>IPK</th>
+  		   <th>NIM</th>
+       <th>Nama</th>
+       <th>Tempat Lahir</th>
+       <th>Tanggal Lahir</th>
+       <th>Fakultas</th>
+       <th>Jurusan</th>
+       <th>IPK</th>
   	</tr>
   	<?php while($data = mysqli_fetch_row($result)): ?>
   		<tr>
