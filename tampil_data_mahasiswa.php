@@ -26,8 +26,8 @@
   			<td><?php echo $data[2]; ?></td>
   			<td><?php echo $data[3]; ?></td>
   			<td><?php echo $data[4]; ?></td>
-        <td><?php echo $data[5]; ?></td>
-        <td><?php echo $data[6]; ?></td>
+            <td><?php echo $data[5]; ?></td>
+            <td><?php echo $data[6]; ?></td>
   		</tr>
   	<?php endwhile; ?>
   </table>
